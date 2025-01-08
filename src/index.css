@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --gold: #D4AF37;
+}
+
+body {
+  @apply bg-black text-white font-sans;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-gold {
+  background-color: var(--gold);
+}
+
+.text-gold {
+  color: var(--gold);
+}
+
+/* Custom styles for better visual hierarchy */
+h1, h2, h3, h4, h5, h6 {
+  @apply font-serif;
+}
+
+.container {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+/* Smooth transitions */
+.transition-all {
+  @apply transition-colors duration-300 ease-in-out;
+}
+
+/* Button styles */
+.btn {
+  @apply inline-block px-8 py-3 font-semibold transition-all;
+}
+
+.btn-gold {
+  @apply bg-gold text-black hover:bg-opacity-90;
+} 

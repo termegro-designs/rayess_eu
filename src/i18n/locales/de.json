@@ -1,0 +1,123 @@
+{
+  "nav": {
+    "home": "Home",
+    "collections": "Kollektionen",
+    "about": "Über uns",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "Zeitlose Eleganz in Vollendung",
+    "subtitle": "Entdecken Sie unsere exquisite Kollektion handgefertigter Schmuckstücke",
+    "cta": "Kollektionen entdecken"
+  },
+  "featured": {
+    "title": "Ausgewählte Kollektionen",
+    "collection1": {
+      "title": "Zeitlose Eleganz",
+      "description": "Klassische Designs mit modernen Elementen"
+    },
+    "collection2": {
+      "title": "Moderne Anmut",
+      "description": "Zeitgenössische Designs für die moderne Frau"
+    },
+    "collection3": {
+      "title": "Königliches Erbe",
+      "description": "Luxuriöse Stücke inspiriert von königlichem Schmuck"
+    }
+  },
+  "latest": {
+    "title": "Neueste Kreationen",
+    "item1": {
+      "title": "Diamant Eternity Ring",
+      "price": "2.999 €"
+    },
+    "item2": {
+      "title": "Saphir Tropfen Anhänger",
+      "price": "3.499 €"
+    },
+    "item3": {
+      "title": "Perlen Tropfen Ohrringe",
+      "price": "1.999 €"
+    },
+    "item4": {
+      "title": "Smaragd Tennis Armband",
+      "price": "4.999 €"
+    }
+  },
+  "collections": {
+    "categories": "Kategorien",
+    "collections": "Kollektionen",
+    "sort": "Sortieren nach",
+    "sort_name": "Name",
+    "sort_price_asc": "Preis aufsteigend",
+    "sort_price_desc": "Preis absteigend",
+    "view_details": "Details ansehen"
+  },
+  "about": {
+    "hero": {
+      "title": "Tradition trifft Innovation",
+      "subtitle": "Seit 1967 steht RAYESS für höchste Handwerkskunst und zeitlose Eleganz"
+    },
+    "history": {
+      "title": "Unsere Geschichte"
+    },
+    "milestone1": {
+      "title": "Die Gründung",
+      "description": "In den historischen Straßen von Idar-Oberstein beginnt unsere Geschichte der Exzellenz"
+    },
+    "milestone2": {
+      "title": "Internationale Expansion",
+      "description": "RAYESS etabliert sich als führende Marke für exquisiten Schmuck in Europa"
+    },
+    "milestone3": {
+      "title": "Innovation & Tradition",
+      "description": "Die Einführung modernster Technologien bei Bewahrung traditioneller Handwerkskunst"
+    },
+    "milestone4": {
+      "title": "Die Zukunft gestalten",
+      "description": "Mit 3D-Technologie und Virtual Reality revolutionieren wir das Schmuckerlebnis"
+    },
+    "values": {
+      "title": "Unsere Werte"
+    },
+    "value1": {
+      "title": "Exzellenz",
+      "description": "Kompromisslose Qualität in jedem Detail"
+    },
+    "value2": {
+      "title": "Nachhaltigkeit",
+      "description": "Verantwortungsvoller Umgang mit Ressourcen"
+    },
+    "value3": {
+      "title": "Innovation",
+      "description": "Zukunftsweisende Technologien im Dienst der Tradition"
+    },
+    "craftsmanship": {
+      "title": "Meisterhafte Handwerkskunst",
+      "description1": "Jedes RAYESS Schmuckstück wird mit höchster Präzision und unübertroffener Liebe zum Detail gefertigt.",
+      "description2": "Unsere Meister vereinen jahrhundertealtes Wissen mit modernster Technologie."
+    },
+    "cta": {
+      "title": "Werden Sie Teil unserer Geschichte",
+      "description": "Entdecken Sie die Welt von RAYESS und lassen Sie sich von unseren Experten beraten",
+      "button": "Termin vereinbaren"
+    }
+  },
+  "footer": {
+    "brand_description": "Exquisiter Schmuck in zeitloser Eleganz. Handgefertigt mit Leidenschaft seit 1967.",
+    "quick_links": "Quick Links",
+    "collections": "Kollektionen",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "contact_info": "Kontakt",
+    "address": "Hauptstraße 1, 55743 Idar-Oberstein",
+    "newsletter": "Newsletter",
+    "newsletter_description": "Abonnieren Sie unseren Newsletter für exklusive Einblicke und Neuheiten",
+    "email_placeholder": "Ihre E-Mail-Adresse",
+    "subscribe": "Abonnieren",
+    "rights": "Alle Rechte vorbehalten",
+    "privacy": "Datenschutz",
+    "terms": "AGB",
+    "imprint": "Impressum"
+  }
+} 

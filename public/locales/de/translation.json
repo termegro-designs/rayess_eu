@@ -1,0 +1,76 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "collections": "Kollektionen",
+    "about": "Über uns",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "Zeitlose Eleganz in Edelstein",
+    "subtitle": "Entdecken Sie unsere exquisite Kollektion handgefertigter Schmuckstücke",
+    "cta": "Kollektion entdecken"
+  },
+  "featured": {
+    "title": "Ausgewählte Kollektionen",
+    "collection1": {
+      "title": "Diamant Solitäre",
+      "description": "Klassische Eleganz trifft zeitgenössisches Design"
+    },
+    "collection2": {
+      "title": "Edle Halsketten",
+      "description": "Vollendete Raffinesse für besondere Momente"
+    },
+    "collection3": {
+      "title": "Exklusive Armbänder",
+      "description": "Handgefertigte Unikate in höchster Qualität"
+    }
+  },
+  "latest": {
+    "title": "Neueste Kreationen",
+    "item1": {
+      "title": "Saphir Tropfen Collier",
+      "price": "€4.999"
+    },
+    "item2": {
+      "title": "Diamant Tennis Armband",
+      "price": "€3.499"
+    },
+    "item3": {
+      "title": "Smaragd Halo Ring",
+      "price": "€5.999"
+    },
+    "item4": {
+      "title": "Perlen Tropfen Ohrringe",
+      "price": "€2.499"
+    }
+  },
+  "cta": {
+    "title": "Lassen Sie sich inspirieren",
+    "description": "Vereinbaren Sie einen persönlichen Beratungstermin in unserem Atelier",
+    "button": "Termin vereinbaren"
+  },
+  "common": {
+    "close": "Schließen",
+    "cancel": "Abbrechen",
+    "submit": "Absenden",
+    "form": {
+      "name": "Name",
+      "email": "E-Mail",
+      "phone": "Telefon",
+      "message": "Nachricht"
+    }
+  },
+  "product": {
+    "inquiry": {
+      "title": "Produkt-Anfrage",
+      "reference": "Referenz",
+      "message": "Ihre Nachricht",
+      "newsletter_consent": "Ich möchte den Newsletter abonnieren",
+      "submit": "Anfrage senden"
+    }
+  },
+  "error": {
+    "page_not_found": "Die angeforderte Seite wurde nicht gefunden",
+    "back_to_home": "Zurück zur Startseite"
+  }
+} 

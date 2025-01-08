@@ -1,0 +1,123 @@
+{
+  "nav": {
+    "home": "Home",
+    "collections": "Collections",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Timeless Elegance in Perfection",
+    "subtitle": "Discover our exquisite collection of handcrafted jewelry",
+    "cta": "Explore Collections"
+  },
+  "featured": {
+    "title": "Featured Collections",
+    "collection1": {
+      "title": "Timeless Elegance",
+      "description": "Classic designs with modern elements"
+    },
+    "collection2": {
+      "title": "Modern Grace",
+      "description": "Contemporary designs for the modern woman"
+    },
+    "collection3": {
+      "title": "Royal Heritage",
+      "description": "Luxurious pieces inspired by royal jewelry"
+    }
+  },
+  "latest": {
+    "title": "Latest Creations",
+    "item1": {
+      "title": "Diamond Eternity Ring",
+      "price": "€2,999"
+    },
+    "item2": {
+      "title": "Sapphire Drop Pendant",
+      "price": "€3,499"
+    },
+    "item3": {
+      "title": "Pearl Drop Earrings",
+      "price": "€1,999"
+    },
+    "item4": {
+      "title": "Emerald Tennis Bracelet",
+      "price": "€4,999"
+    }
+  },
+  "collections": {
+    "categories": "Categories",
+    "collections": "Collections",
+    "sort": "Sort by",
+    "sort_name": "Name",
+    "sort_price_asc": "Price ascending",
+    "sort_price_desc": "Price descending",
+    "view_details": "View Details"
+  },
+  "about": {
+    "hero": {
+      "title": "Tradition Meets Innovation",
+      "subtitle": "Since 1967, RAYESS has stood for supreme craftsmanship and timeless elegance"
+    },
+    "history": {
+      "title": "Our History"
+    },
+    "milestone1": {
+      "title": "The Foundation",
+      "description": "Our story of excellence begins in the historic streets of Idar-Oberstein"
+    },
+    "milestone2": {
+      "title": "International Expansion",
+      "description": "RAYESS establishes itself as a leading brand for exquisite jewelry in Europe"
+    },
+    "milestone3": {
+      "title": "Innovation & Tradition",
+      "description": "The introduction of cutting-edge technology while preserving traditional craftsmanship"
+    },
+    "milestone4": {
+      "title": "Shaping the Future",
+      "description": "Revolutionizing the jewelry experience with 3D technology and virtual reality"
+    },
+    "values": {
+      "title": "Our Values"
+    },
+    "value1": {
+      "title": "Excellence",
+      "description": "Uncompromising quality in every detail"
+    },
+    "value2": {
+      "title": "Sustainability",
+      "description": "Responsible resource management"
+    },
+    "value3": {
+      "title": "Innovation",
+      "description": "Forward-thinking technologies in service of tradition"
+    },
+    "craftsmanship": {
+      "title": "Masterful Craftsmanship",
+      "description1": "Every RAYESS piece is crafted with the highest precision and unsurpassed attention to detail.",
+      "description2": "Our masters combine centuries-old knowledge with cutting-edge technology."
+    },
+    "cta": {
+      "title": "Become Part of Our Story",
+      "description": "Discover the world of RAYESS and let our experts guide you",
+      "button": "Book Appointment"
+    }
+  },
+  "footer": {
+    "brand_description": "Exquisite jewelry in timeless elegance. Handcrafted with passion since 1967.",
+    "quick_links": "Quick Links",
+    "collections": "Collections",
+    "about": "About",
+    "contact": "Contact",
+    "contact_info": "Contact",
+    "address": "Main Street 1, 55743 Idar-Oberstein",
+    "newsletter": "Newsletter",
+    "newsletter_description": "Subscribe to our newsletter for exclusive insights and news",
+    "email_placeholder": "Your email address",
+    "subscribe": "Subscribe",
+    "rights": "All rights reserved",
+    "privacy": "Privacy Policy",
+    "terms": "Terms",
+    "imprint": "Imprint"
+  }
+} 
