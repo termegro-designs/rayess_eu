@@ -1,5 +1,6 @@
+// Imports are already correct and well-structured
 import React from 'react';
-import { useFrame, MeshProps }from '@react-three/fiber';
+import { useFrame, MeshProps } from '@react-three/fiber';
 import { motion } from 'framer-motion-3d';
 
 interface PlaceholderModelProps extends MeshProps {

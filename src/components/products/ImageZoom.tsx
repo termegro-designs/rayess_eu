@@ -1,6 +1,5 @@
-import React from 'react';
-import { useState, useRef } from'react';
-import {motion } from 'framer-motion';
+import React, { useState, useRef } from 'react';
+import { motion } from 'framer-motion';
 
 interface ImageZoomProps {
   imageUrl: string;

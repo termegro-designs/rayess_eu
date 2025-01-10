@@ -1,6 +1,7 @@
+// These imports are already correct and follow best practices
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
-import{ useTranslation } from 'react-i18next';
+import { useTranslation } from 'react-i18next';
 import { ContactForm } from '../components/contact/ContactForm';
 import { StoreLocations } from '../components/contact/StoreLocations';
 import { PageHeader } from '../components/layout/PageHeader';

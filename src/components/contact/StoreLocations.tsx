@@ -1,11 +1,15 @@
 import React, { useState } from 'react';
-import { useTranslation }from 'react-i18next';
+import { useTranslation } from 'react-i18next';
 import { GoogleMap, Marker, InfoWindow } from '@react-google-maps/api';
 import type { StoreLocation } from '../../types';
+import { motion } from 'framer-motion';
 
 interface StoreLocationsProps {
   locations: StoreLocation[];
 }
+
+// Adjust mapStyles to be an array of MapTypeStyle
+const mapStyles: google.maps.MapTypeStyle[] = [];
 
 export const StoreLocations = ({ locations }: StoreLocationsProps) => {
   const { t } = useTranslation();

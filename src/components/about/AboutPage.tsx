@@ -1,8 +1,7 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { motion, useScroll, useTransform, AnimatePresence } from 'framer-motion';
-import Layout from '../layout/Layout';
 import { useInView } from 'react-intersection-observer';
-import { useEffect, useState } from 'react';
+import Layout from '../layout/Layout';
 
 const AboutPage = () => {
   const [isLoaded, setIsLoaded] = useState(false);

@@ -2,7 +2,17 @@ import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
-import { products, categories, collections, Product } from '../../data/products';
+import { Product } from '@/types';
+import { products, categories, collections } from '../../data/products';
+
+const adjustedProducts = products.map(product => ({
+  ...product,
+  images: product.images.map(url => ({ url, alt: '', isMain: false })),
+  dimensions: {
+    ...product.dimensions,
+    depth: product.dimensions.depth || 0
+  }
+}));
 
 const CollectionPage = () => {
   const { t } = useTranslation();
@@ -13,7 +23,7 @@ const CollectionPage = () => {
   const [sortBy, setSortBy] = useState<'price-asc' | 'price-desc' | 'name'>('name');
 
   useEffect(() => {
-    let filtered = [...products];
+    let filtered = [...adjustedProducts];
     
     if (selectedCategory) {
       filtered = filtered.filter(product => product.category === selectedCategory);
@@ -38,6 +48,9 @@ const CollectionPage = () => {
 
     setFilteredProducts(filtered);
   }, [selectedCategory, selectedCollection, sortBy]);
+
+  const categoryKey = selectedCategory || 'default';
+  const collectionKey = selectedCollection || 'default';
 
   return (
     <div className="min-h-screen pt-24 pb-12 px-4 bg-gradient-to-br from-amber-50 to-white">
@@ -113,7 +126,7 @@ const CollectionPage = () => {
       <div className="max-w-7xl mx-auto">
         <AnimatePresence mode="wait">
           <motion.div
-            key={selectedCategory + selectedCollection + sortBy}
+            key={categoryKey + collectionKey + sortBy}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
@@ -130,7 +143,7 @@ const CollectionPage = () => {
                 <Link to={`/product/${product.id}`}>
                   <div className="relative aspect-square overflow-hidden">
                     <img
-                      src={product.images[0]}
+                      src={product.images[0].url}
                       alt={product.name}
                       className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
                     />

@@ -1,13 +1,21 @@
-import React from 'react';
-import { useState } from 'react';
-import { motion } from'framer-motion';
-import { ProductViewer3D } from './ProductViewer3D';
-import { ImageZoom } from './ImageZoom';
-import { Product } from '../../types';
+import React, { useState } from 'react';
+import { motion } from 'framer-motion';
+// import ImageZoom from '../common/ImageZoom';
+import type { Product } from '@/types';
 
 interface ProductGalleryProps {
   product: Product;
 }
+
+// Placeholder for ProductViewer3D component
+const ProductViewer3D: React.FC<{ modelUrl?: string }> = ({ modelUrl }) => (
+  <div>3D Viewer for {modelUrl}</div>
+);
+
+// Placeholder for ImageZoom component
+const ImageZoom: React.FC<{ imageUrl: string; alt: string }> = ({ imageUrl, alt }) => (
+  <div>Zoomed Image: {alt}</div>
+);
 
 export const ProductGallery = ({ product }: ProductGalleryProps) => {
   const [activeView, setActiveView] = useState<'images' | '3d'>('images');

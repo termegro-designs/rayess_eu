@@ -1,14 +1,10 @@
-import React from 'react';
-import { motion, AnimatePresence, useScroll, useTransform } from 'framer-motion';
-import Layout from '../layout/Layout';
+import React, { useEffect, useState } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { useEffect, useState } from 'react';
+import Layout from '../layout/Layout';
 
 const ProductsPage = () => {
   const [isLoaded, setIsLoaded] = useState(false);
-  const { scrollY } = useScroll();
-  const opacity = useTransform(scrollY, [0, 300], [1, 0]);
-  const scale = useTransform(scrollY, [0, 300], [1, 0.8]);
 
   useEffect(() => {
     setIsLoaded(true);

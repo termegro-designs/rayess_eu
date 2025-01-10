@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import {motion } from 'framer-motion';
+import { motion } from 'framer-motion';
 import Layout from '../layout/Layout';
 import { collections, products } from '../../data/products';
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
-import{ Helmet } from 'react-helmet-async';
+import { Helmet } from 'react-helmet-async';
 import Navbar from './components/navigation/Navbar';
 import Footer from './components/common/Footer';
 

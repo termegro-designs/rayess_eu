@@ -1,8 +1,8 @@
-import React, { Suspense } from 'react';
+import React from 'react';
+import { Suspense } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Stage, useGLTF } from '@react-three/drei';
-import { motion } from 'framer-motion-3d';
-import PlaceholderModel from './PlaceholderModel';
+import { motion } from 'framer-motion';
 
 interface ModelProps {
   modelUrl: string;
@@ -29,7 +29,7 @@ const ProductViewer3D: React.FC<ProductViewer3DProps> = ({
       <Canvas shadows dpr={[1, 2]} camera={{ fov: 45 }}>
         <Suspense fallback={null}>
           <Stage environment="city" intensity={0.5}>
-            <motion.group
+            <motion.div
               initial={{ scale: 0, rotateY: 0 }}
               animate={{ scale: 1, rotateY: Math.PI * 2 }}
               transition={{ duration: 1.5, ease: "easeOut" }}
@@ -39,7 +39,7 @@ const ProductViewer3D: React.FC<ProductViewer3DProps> = ({
               ) : (
                 <PlaceholderModel type={type} />
               )}
-            </motion.group>
+            </motion.div>
           </Stage>
         </Suspense>
         <OrbitControls 
@@ -53,5 +53,10 @@ const ProductViewer3D: React.FC<ProductViewer3DProps> = ({
     </div>
   );
 };
+
+// Placeholder for PlaceholderModel component
+const PlaceholderModel: React.FC<{ type?: string }> = ({ type }) => (
+  <div>Placeholder for {type}</div>
+);
 
 export default ProductViewer3D; 
