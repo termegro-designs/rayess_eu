@@ -1,0 +1,76 @@
+{
+  "nav": {
+    "home": "Home",
+    "collections": "Collections",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Timeless Elegance in Precious Stones",
+    "subtitle": "Discover our exquisite collection of handcrafted jewelry",
+    "cta": "Explore Collection"
+  },
+  "featured": {
+    "title": "Featured Collections",
+    "collection1": {
+      "title": "Diamond Solitaires",
+      "description": "Classic elegance meets contemporary design"
+    },
+    "collection2": {
+      "title": "Fine Necklaces",
+      "description": "Perfect sophistication for special moments"
+    },
+    "collection3": {
+      "title": "Exclusive Bracelets",
+      "description": "Handcrafted unique pieces of highest quality"
+    }
+  },
+  "latest": {
+    "title": "Latest Creations",
+    "item1": {
+      "title": "Sapphire Drop Necklace",
+      "price": "€4,999"
+    },
+    "item2": {
+      "title": "Diamond Tennis Bracelet",
+      "price": "€3,499"
+    },
+    "item3": {
+      "title": "Emerald Halo Ring",
+      "price": "€5,999"
+    },
+    "item4": {
+      "title": "Pearl Drop Earrings",
+      "price": "€2,499"
+    }
+  },
+  "cta": {
+    "title": "Get Inspired",
+    "description": "Schedule a personal consultation in our atelier",
+    "button": "Book Appointment"
+  },
+  "common": {
+    "close": "Close",
+    "cancel": "Cancel",
+    "submit": "Submit",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "message": "Message"
+    }
+  },
+  "product": {
+    "inquiry": {
+      "title": "Product Inquiry",
+      "reference": "Reference",
+      "message": "Your Message",
+      "newsletter_consent": "I would like to subscribe to the newsletter",
+      "submit": "Send Inquiry"
+    }
+  },
+  "error": {
+    "page_not_found": "The requested page was not found",
+    "back_to_home": "Back to Home"
+  }
+} 

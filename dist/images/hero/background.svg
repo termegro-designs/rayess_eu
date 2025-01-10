@@ -1,0 +1,36 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1920" height="1080" fill="#000000"/>
+  
+  <!-- Elegantes Diamantmuster -->
+  <g opacity="0.08">
+    <!-- Zentraler Diamant -->
+    <path d="M960 340 L1160 540 L960 740 L760 540 Z" stroke="#D4AF37" stroke-width="1" />
+    <path d="M960 290 L1210 540 L960 790 L710 540 Z" stroke="#D4AF37" stroke-width="1" />
+    <path d="M960 240 L1260 540 L960 840 L660 540 Z" stroke="#D4AF37" stroke-width="1" />
+    
+    <!-- Dekorative Elemente -->
+    <circle cx="960" cy="540" r="200" stroke="#D4AF37" stroke-width="1" fill="none"/>
+    <circle cx="960" cy="540" r="300" stroke="#D4AF37" stroke-width="1" fill="none"/>
+    
+    <!-- Subtiles Raster -->
+    <path d="M0 270 L1920 270" stroke="#D4AF37" stroke-width="0.5" />
+    <path d="M0 540 L1920 540" stroke="#D4AF37" stroke-width="0.5" />
+    <path d="M0 810 L1920 810" stroke="#D4AF37" stroke-width="0.5" />
+    
+    <path d="M480 0 L480 1080" stroke="#D4AF37" stroke-width="0.5" />
+    <path d="M960 0 L960 1080" stroke="#D4AF37" stroke-width="0.5" />
+    <path d="M1440 0 L1440 1080" stroke="#D4AF37" stroke-width="0.5" />
+  </g>
+  
+  <!-- Premium Gradient Overlay -->
+  <rect width="1920" height="1080" fill="url(#premium-gradient)"/>
+  
+  <defs>
+    <linearGradient id="premium-gradient" x1="0" y1="0" x2="0" y2="1080" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#000000" stop-opacity="0.95"/>
+      <stop offset="0.4" stop-color="#000000" stop-opacity="0.7"/>
+      <stop offset="0.6" stop-color="#000000" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+</svg> 
