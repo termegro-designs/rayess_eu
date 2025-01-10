@@ -1,3 +1,4 @@
+import React from 'react';
 import { motion, AnimatePresence, useScroll, useTransform } from 'framer-motion';
 import Layout from '../layout/Layout';
 import { useInView } from 'react-intersection-observer';
@@ -189,7 +190,7 @@ const ProductsPage = () => {
                       transition={{ duration: 0.3 }}
                     />
 
-                    {/* Image Container */}
+                    {/* Image Container*/}
                     <motion.div
                       className="relative w-full h-full overflow-hidden rounded-lg"
                       variants={imageHoverVariants}

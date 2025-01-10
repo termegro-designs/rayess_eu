@@ -1,3 +1,5 @@
+import React from 'react';
+
 const TermsPage = () => {
   return (
     <div className="bg-white text-black pt-32">

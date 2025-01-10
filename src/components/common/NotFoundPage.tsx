@@ -1,5 +1,6 @@
+import React from 'react';
 import { Link } from 'react-router-dom';
-import { useTranslation } from 'react-i18next';
+import{ useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 
 const NotFoundPage = () => {

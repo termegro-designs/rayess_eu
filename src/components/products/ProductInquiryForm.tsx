@@ -1,5 +1,6 @@
+import React from 'react';
 import { useState } from 'react';
-import { useTranslation } from 'react-i18next';
+import { useTranslation }from 'react-i18next';
 import { Product } from '../../types';
 
 interface ProductInquiryFormProps {

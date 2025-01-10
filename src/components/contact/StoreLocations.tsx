@@ -1,5 +1,5 @@
-import { useState } from 'react';
-import { useTranslation } from 'react-i18next';
+import React, { useState } from 'react';
+import { useTranslation }from 'react-i18next';
 import { GoogleMap, Marker, InfoWindow } from '@react-google-maps/api';
 import type { StoreLocation } from '../../types';
 

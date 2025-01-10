@@ -1,3 +1,4 @@
+import React from 'react';
 import { motion, useScroll, useTransform, AnimatePresence } from 'framer-motion';
 import Layout from '../layout/Layout';
 import { useInView } from 'react-intersection-observer';
@@ -154,7 +155,7 @@ const AboutPage = () => {
                   It is a dedication to providing an unparalleled customer experience.
                 </motion.p>
               </motion.div>
-              
+             
               {/* Image Grid mit Premium Hover-Effekten */}
               <div className="grid grid-cols-2 gap-4">
                 <motion.div

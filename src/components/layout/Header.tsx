@@ -1,5 +1,6 @@
+import React from 'react';
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { LanguageSelector } from '../../common/LanguageSelector';
 import { motion } from 'framer-motion';
